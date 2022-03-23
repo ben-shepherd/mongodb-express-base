@@ -1,0 +1,27 @@
+{
+  "name": "shift-node-mongo-express-base",
+  "author": "benjamin.shepherd@shift.online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boilerplate for Express & MongoDB projects",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "content-filter": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "loglevel": "^1.8.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "mongo": "^0.1.0"
+  }
+}
